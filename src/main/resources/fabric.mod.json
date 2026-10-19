@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "enderdev_pvp_kit",
+  "version": "${version}",
+  "name": "EnderDev PvP Kit",
+  "description": "A mod that provides a PvP kit with all items enchanted.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/EnderDevelopment/enderdev_pvp_kit"
+  },
+  "license": "MIT",
+  "icon": "assets/enderdev_pvp_kit/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.enderdev_pvp_kit.EnderDevPvPKitMod"
+    ]
+  },
+  "mixins": [
+    "enderdev_pvp_kit.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.4"
+  }
+}
